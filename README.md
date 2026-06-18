@@ -116,9 +116,10 @@ lot. Apologies...
 ### Setup
 
 1. You need to install Go. Do that according to [these
-   directions](https://go.dev/doc/install).
+   directions](https://go.dev/doc/install). It's probably best if you
+   have the latest version of Go, but it needs to be at least Go 1.24.
 
-2. You need to have a working terminal with git. I haven't tested this
+3. You need to have a working terminal with git. I haven't tested this
    on Macs but it should be fine. There's nothing keeping this from
    working on Windows, particularly WSL, but I know less of the
    details.
@@ -126,7 +127,7 @@ lot. Apologies...
    Open the terminal and run the `git` command. If it prints a bunch
    of stuff that starts with `usage` then you're good.
 
-3. Clone the repository and the submodule with the following command:
+4. Clone the repository and the submodule with the following command:
 
    ```bash
    git clone https://github.com/tychoish/odem.git --recurse-submodules
