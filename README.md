@@ -116,7 +116,7 @@ lot. Apologies...
 ### Setup
 
 1. You need to install Go. Do that according to [these
-   direction](https://go.dev/doc/install).
+   directions](https://go.dev/doc/install).
 
 2. You need to have a working terminal with git. I haven't tested this
    on Macs but it should be fine. There's nothing keeping this from
@@ -129,10 +129,10 @@ lot. Apologies...
 3. Clone the repository and the submodule with the following command:
 
    ```bash
-   git clone https://github.com/tychoish/odem.git --recursive-submodules
+   git clone https://github.com/tychoish/odem.git --recurse-submodules
    ```
 
-   The `--recursive-submodules` option downloads the database from
+   The `--recurse-submodules` option downloads the database from
    Mark's repository and gets it all set up. If you omit this option
    above or clone the repository in another way, and you don't have
    the datebase (run `ls pkg/db/fasoladb` to check), you can setup the
